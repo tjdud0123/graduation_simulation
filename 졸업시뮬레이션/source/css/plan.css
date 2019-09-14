@@ -1,0 +1,346 @@
+@font-face { font-family: 'KCC-eunyoung'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'NanumBarunpen'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body{ background: #ffafbd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffafbd, #ffc3a0); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);}
+
+#t_nav{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    margin-left: 15px;
+    width: 3000%;
+}
+
+.p_now{
+    color: white;
+}
+#nav_con{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav{
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0px;
+    left:0px;
+}
+
+.navo{
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-family: 'NanumBarunpen';
+    letter-spacing: 3px;
+    padding: 10px;
+}
+.navo:hover{
+    color: #ee9ca7;
+    text-decoration: none;
+}
+
+#logo{
+    padding-left: 20px;
+    font-family: 'KCC-eunyoung';
+    font-size: 25px;
+    padding-bottom: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#logo:hover{color: #ee9ca7;}
+
+#pl{border-bottom: 2px solid #ee9ca7;}
+
+#whole_cont{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+    height: 100%;
+}
+
+#left{
+   
+}
+
+#info_right{
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 47px;
+}
+#plan{
+    height: 60%;
+}
+#search{
+    height:40%;
+    background-color: #ffede2;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+/*    align-items: center;*/
+}
+
+/*인포메이션부분*/
+
+#info_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.dropdown{
+    margin:10px;
+   
+}
+
+.dropdown-menu{
+    width: 100%;
+}
+
+.dropdown-item{
+    text-align: center !important;
+    font-family: 'NanumBarunpen';
+    cursor: pointer;
+}
+
+.btn{
+    background-color: white !important;
+    color:black !important;
+    font-family: 'NanumBarunpen';
+    width: 100%;
+}
+
+/*
+#bin_major{
+    display: none;
+    
+}
+*/
+
+h6{
+    color: white !important;
+    padding: 10px 10px 0px 10px;
+    font-family: 'NanumBarunpen' !important;
+}
+
+#list{
+    overflow: auto;
+    height: 65%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+span{
+    font-size:12px;
+    color: darkred;
+}
+
+.small{
+    color:blanchedalmond !important;
+}
+
+/*왼쪽위*/
+#plan{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+#input{
+    background-color:rgba(256,256,256,0.2);
+}
+
+#timetable{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#t_nav{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+}
+
+.semester{
+    background-color: rgba(60,0,0,0.1);
+    height: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-family: 'NanumBarunpen';
+    border-bottom: 2px solid rgba(100,0,0,0);
+}
+
+.semester:hover{
+    background-color: rgba(100,0,0,0.3);
+    cursor: pointer;
+}
+
+#formal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+   margin-bottom: 10px;
+    width: 45%;
+    height: 40%;
+    background-color: white;
+}
+
+#season{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card2{
+   margin-bottom: 10px;
+    width: 45%;
+    height: 15%;
+    background-color: #ededed;
+}
+
+#first{
+   border-bottom: 2px solid rgba(100,0,0,0.3);
+}
+
+/*input*/
+
+#input{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label{
+    font-family: 'NanumBarunpen';
+    padding-left: 10px;
+}
+input{
+    font-family: 'NanumBarunpen' !important;
+    width: 50% !important;
+    margin-left: 10px !important;
+}
+
+#lab{
+    width: 120px;
+    padding: 10px;
+    color: rgba(150,0,0,0.9);
+    font-size: 12px;
+    font-family: 'NanumBarunpen';
+}
+
+#selectCon{
+    display: flex;
+    justify-content: space-around;
+}
+
+#ssd{
+    width: 160px;
+}
+
+
+#input_top{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+}
+
+#class_credit{
+    width: 80px !important;
+}
+
+#class_name{
+    width: 70% !important;
+}
+
+
+#input_middle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#select_category{
+    margin-top: 10px;
+}
+
+#input_btn{
+    width: 80px;
+    height: 40px;
+    background-color: rgba(256,0,0,0.3) !important;
+    font-size: 13px;
+    border: 0px solid black;
+    margin-right: 10px;
+    color: white  !important;
+}
+
+#input_btn:hover{
+    background-color: rgba(100,0,0,0.7) !important;
+}
+
+#btn_con{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#delete_con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+
+#del_name{
+    width: 100% !important;
+}
+
+#del_btn{
+    width: 80px;
+    height: 40px;
+    background-color: rgba(256,0,0,0.2) !important;
+    font-size: 13px;
+    border: 0px solid black;
+    margin-right: 10px;
+    color: white  !important;
+    margin-top: 15px;
+}
+
+#del_btn:hover{
+    background-color: rgba(100,0,0,0.5) !important;
+}
+
+/*검색*/
+#sinput_con{
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    width: 50%;
+    margin: 15px;
+}
+
+#search_inp{
+    height: 40px;
+    width: 100% !important;
+}
+
+#search_btn{
+    border: 1px solid #aaaaaa;
+    margin-left: 8px;
+}
+
+#kiseCh{
+    color: chartreuse;
+}

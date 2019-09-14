@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>융합콘텐츠학과 졸업시뮬레이션</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/list.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/list.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="resources/sheet.css">
+    <style>
+        body{background-color: black;}
+    </style>
+</head>
+
+<body>
+
+    <!--    nav-->
+    <div id="nav">
+        <a id="logo" onclick="logout()">plan for graduation</a>
+        <div id="right" style="margin-right: 10px;">
+            <a id="pa" class="navo" href="past.html">Past</a>
+            <a id="pl" class="navo" href="plan.html">Plan</a>
+            <a id="li" class="navo" href="list.html">List</a>
+        </div>
+    </div>
+    <!--    //-->
+    <h1>Saved timetable list.</h1>
+    <div id="container">
+        <div id="table_container">
+            <div class="timetable" onclick="go_view(this)">
+                <div class="Ttext">시간표1</div>
+            </div>
+            <div class="timetable" onclick="go_view(this)">
+                <div class="Ttext">시간표2</div>
+            </div>
+            <div class="timetable" onclick="go_view(this)">
+                <div class="Ttext">시간표3</div>
+            </div>
+            <div class="timetable" onclick="go_view(this)">
+                <div class="Ttext">시간표4</div>
+            </div>
+            <div class="timetable" onclick="go_view(this)">
+                <div class="Ttext">시간표5</div>
+            </div>
+        </div>
+        <div id="dot_con" style="text-align:center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+    <div id="footer">@copyright seoyoung um_2018</div>
+</body>
+
+</html>
+<script>
+    function logout() {
+        var x = window.confirm("로그아웃 하시겠습니까?")
+        if (x) {
+            //로그아웃
+            location.href = "home.html";
+        }
+    }
+
+</script>

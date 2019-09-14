@@ -1,0 +1,50 @@
+@font-face { font-family: 'KCC-eunyoung'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.box{
+    width: 50.50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+}
+
+#saved{
+    font-family: 'KCC-eunyoung';
+    font-size:50px;
+    background-image: url(../resources/list.jpg);
+    background-size: cover;
+    opacity:0.9;
+}
+#saved:hover{
+    opacity:1;
+}
+#go_plan{
+    font-family: 'KCC-eunyoung';
+    font-size:50px;
+    background-image: url(../resources/plan.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    
+}
+
+#go_plan:hover{
+    opacity: 1;
+}
+
+#list{
+    font-family: 'KCC-eunyoung';
+    font-size:50px;
+    background-image: url(save.jpg);
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#list:hover{
+    opacity: 1;
+}

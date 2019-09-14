@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>융합콘텐츠학과 졸업시뮬레이션</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/home.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/home.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <link rel="canonical" href="http://www.alessioatzeni.com/wp-content/tutorials/jquery/login-box-modal-dialog-window/index.html" />
+</head>
+
+<body>
+    <div id="main_container">
+        <div id="title">Plan for<br>Content Convergence</div>
+        <p id="info">융합콘텐츠학과 학생들을 위한 졸업시뮬레이션 프로그램입니다.<br> 복수전공/부전공을 선택하시고 전체학기 시간표를 짜보세요!
+        </p>
+        <a id="start" href="#login-box" class="login-window" onclick="blockfunc()"><div id="sf">Start</div></a>
+    </div>
+    
+<!--    //login-->
+    
+ <div id="idcon" class="container" style="display:none;">
+	<div id="content">
+    
+        <div id="login-box" class="login-popup">
+        <a href="#" class="close"><img src="resources/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+          <form method="post" class="signin" action="#">
+                <fieldset class="textbox">
+                    <p id="loginL">첫 로그인시 자동 회원가입 됩니다.</p>
+            	<label class="username">
+                <span>학번</span>
+                <input id="userid" name="username" value="" type="text" autocomplete="on" placeholder="UserId">
+                </label>
+                
+                <label class="password">
+                <span>비밀번호</span>
+                <input id="password" name="password" value="" type="password" placeholder="Password">
+                </label>
+                
+                <button class="submit button" type="button" onclick="user_in()">Sign in</button>
+                
+                </fieldset>
+          </form>
+		</div>
+    
+    </div>
+</div>
+
+</body>
+
+</html>

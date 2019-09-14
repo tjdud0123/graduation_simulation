@@ -1,0 +1,134 @@
+@font-face { font-family: 'KCC-eunyoung'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'NanumBarunpen'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body{
+    background-color: black;
+/*
+    background: #304352;
+    background: linear-gradient(to right, #d7d2cc, #304352);
+    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
+*/
+}
+
+#footer{
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'KCC-eunyoung';
+    padding-top: 5px;
+    background-color: rgba(0,0,0,0.4);
+    left: 0px;
+}
+
+#nav{
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0px;
+    left:0px;
+}
+
+.navo{
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-family: 'NanumBarunpen';
+    letter-spacing: 3px;
+    padding: 10px;
+}
+.navo:hover{
+    color: #bccde3;
+}
+
+#logo{
+    padding-left: 20px;
+    font-family: 'KCC-eunyoung';
+    font-size: 25px;
+    padding-bottom: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#logo:hover{color: #bccde3;}
+
+#li{border-bottom: 2px solid #bccde3;}
+
+h1{
+    color: white;
+    font-family: 'NanumBarunpen';
+    font-size: 25px;
+    margin: 100px 10px 10px 10px;
+    border-bottom: 1px solid #777777;
+    width: 500px;
+    padding-bottom: 2px;
+    letter-spacing: 2px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     flex-wrap: nowrap;
+    height: 55%;
+    background-image: url(../resources/main.jpg);
+    background-size:cover;
+    background-color: (0,0,0,0.5);
+}
+
+.timetable{
+    width: 180px;
+    height: 180px;
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.timetable:hover{
+     background-color: rgba(0,0,0,0.1);
+}
+
+#table_container{
+    display: flex;
+    margin-top: 40
+}
+
+.Ttext{
+    font-family: 'NanumBarunpen';
+    color:white;
+}
+
+/*<slide>*/
+.dot {
+
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover{
+    background-color: aliceblue;
+}
+
+#dot_con{
+    margin-top: 5px;
+}
